@@ -1,0 +1,35 @@
+Shell Script 
+
+1.Read input and print
+
+read -p "Enter the fruit name :" fruit
+price=90
+read -p "Enter the quantity :" quantity
+total=$(( quantity * price ))
+echo "Total price is : $total"
+
+2.check file is existing or not
+
+echo "Enter the file name"
+read file
+if [ -f "$file" ]
+then
+        echo :"File existing"
+else
+        echo "file not fount"
+fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
